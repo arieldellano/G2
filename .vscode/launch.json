@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch mkdi",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/bin/mkdi",
+            "args": [
+                "disk.img"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "targetArchitecture": "arm64",
+            "MIMode": "lldb"
+        },
+        {
+            "name": "Launch mkfs",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/bin/mkfs",
+            "args": [
+                "disk.img",
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "targetArchitecture": "arm64",
+            "MIMode": "lldb"
+        }
+    ]
+}

@@ -31,4 +31,10 @@
 *.out
 *.app
 
+# Mac OS X Finder
 .DS_Store
+
+# Development files
+bin
+**/build
+*.img
